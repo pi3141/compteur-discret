@@ -101,7 +101,7 @@ def tic():#les secondes passent
             drawTime(sec,min)
 
 def quit(self):
-    exit()
+    sys.exit()
 
 def timeIsUp():
     global label,fenetre,run,fini,chrono,separateur
@@ -167,8 +167,7 @@ separateur.pack(fill=X, padx=5, pady=5)
 
 label.pack()
 
-
-
 fenetre.mainloop()
 fenetre.focus_force()
+
 
